@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+body {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 2.25rem;
+  line-height: 1.5rem;
+}
+
+/* CUBE */
+
+.flexbox {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.flexbox[data-type=""] {
+}
+
+.flow > * + * {
+  margin-top: 0.8rem;
+}
+
+/* U */
+
+.stretchbox {
+}
+
+.borderR {
+  border-radius: 100rem;
+}
