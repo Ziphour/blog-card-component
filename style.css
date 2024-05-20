@@ -49,13 +49,25 @@ body {
 }
 
 .imagesizing {
-  height: 5px;
-  width: 100px;
-  object-fit: fill;
+  height: 50px;
+  width: 10px;
+  object-fit: ;
 }
 
 .marginLeft > * + * {
   margin-left: 1.5rem;
+}
+
+.center {
+  align-self: center;
+}
+
+.padding {
+  padding: 0.5rem;
+}
+
+.fitwords {
+  width: fit-content;
 }
 /* block */
 
