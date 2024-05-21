@@ -19,11 +19,14 @@ body {
 
 .flexbox {
   display: flex;
-  flex: 1;
 }
 
 .flow > * + * {
   margin-top: 2.25rem;
+}
+
+.gap {
+  gap: 20px;
 }
 
 /* U */
@@ -36,10 +39,6 @@ body {
   border-radius: 100rem;
 }
 
-.circle {
-  clip-path: circle();
-}
-
 .Oback {
   background-color: orange;
 }
@@ -48,10 +47,18 @@ body {
   color: white;
 }
 
+.fw-light {
+  font-weight: 200;
+}
+
+.fw-medium {
+  font-weight: 300;
+}
+
 .imagesizing {
-  height: 50px;
-  width: 10px;
-  object-fit: ;
+  height: 6rem;
+  width: 6rem;
+  object-fit: cover;
 }
 
 .marginLeft > * + * {
@@ -72,11 +79,12 @@ body {
 /* block */
 
 .Card {
-  height: 50rem;
+  height: 45rem;
   width: 30rem;
   margin: auto;
-  box-shadow: 2 2 2 2 black;
+  box-shadow: 20px 20px 40px 0.1px rgba(0, 0, 0, 0.337);
   background-color: white;
+  border-radius: 1rem;
 }
 
 /* E */
