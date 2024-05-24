@@ -10,7 +10,7 @@ body {
   font-family: Roboto;
   font-weight: 900;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   color: rgb(43, 43, 51);
   background-color: peachpuff;
 }
@@ -22,17 +22,29 @@ body {
 }
 
 .flow > * + * {
-  margin-top: 2.25rem;
+  margin-top: 2.5rem;
+}
+
+.internalflow > * + * {
+  margin-top: 1rem;
 }
 
 .gap {
   gap: 20px;
 }
 
+.marginLeft > * + * {
+  margin-left: 1.75rem;
+}
 /* U */
 
 .stretchbox {
   align-self: stretch;
+}
+
+.endtoend {
+  justify-items: space-evenly;
+  align-items: space-between;
 }
 
 .borderR {
@@ -40,7 +52,7 @@ body {
 }
 
 .Oback {
-  background-color: #ffa600fc;
+  background-color: #f97316;
 }
 
 .WColor {
@@ -48,11 +60,11 @@ body {
 }
 
 .fw-light {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .fw-medium {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .imagesizing {
@@ -61,16 +73,12 @@ body {
   object-fit: cover;
 }
 
-.marginLeft > * + * {
-  margin-left: 1.5rem;
-}
-
 .center {
   align-self: center;
 }
 
 .padding {
-  padding: 0.5rem;
+  padding: 0rem 1rem;
 }
 
 .fitwords {
@@ -80,7 +88,7 @@ body {
 
 .Card {
   height: 45rem;
-  width: 30rem;
+  width: 28rem;
   margin: auto;
   box-shadow: 20px 20px 40px 0.1px rgba(0, 0, 0, 0.337);
   background-color: white;
